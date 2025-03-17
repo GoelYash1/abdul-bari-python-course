@@ -1,0 +1,3 @@
+dir can be used to find methods of a class
+help can be used to find how to apply a function
+index and find difference is index will give error if a substring doesn't exist in the string, whereas find will output -1

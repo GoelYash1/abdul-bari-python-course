@@ -7,3 +7,6 @@
     output: abcdef
 5. print has print(end="\n", sep = " ", flush = False, file = sys.stdout ) DEFAULTS and more
     flush is a higher concept something related to buffer
+6. Sets cannot contain mutable objects
+        s = {{1,2,3},[1,2,3]} not allowed
+        s = {1,(2,3),"Hello", 45.67} allowed

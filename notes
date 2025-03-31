@@ -10,3 +10,18 @@
 6. Sets cannot contain mutable objects
         s = {{1,2,3},[1,2,3]} not allowed
         s = {1,(2,3),"Hello", 45.67} allowed
+7. * is used to make arguments to its right in function key word based and * cannot be at the end
+   / is used to make arguments to its left in function positional based and / cannot be at the start
+   fun(a,b,/,c,d) means fun(a=1,b=2,c=3,d=4) is wrong as a and b cannot be key word based
+   fun(a,b,*,c,d) means fun(1,2,3,4) is wrong as c and d cannot be written without key word mentioned
+8. def fun(*args,a,b):
+    print(args)
+   args is a tuple and a and b are key word only
+   i.e fun(1,2,3,4,5) IS WRONG, fun(1,2,3,a=4,b=5) IS CORRECT
+-> def fun(**kwargs):
+    print(kwargs)
+   kwargs is a map and all the arguments are key word only
+   i.e fun(1,2,3) IS WRONG, fun(a=1,b=2,c=3) IS CORRECT
+-> def fun(*args, a, b, **kwargs):
+        print(args,a,b,kwargs)
+   fun(1,2,3,a=1,b=2,c=4,d=5)

@@ -25,3 +25,14 @@
 -> def fun(*args, a, b, **kwargs):
         print(args,a,b,kwargs)
    fun(1,2,3,a=1,b=2,c=4,d=5)
+9. functions are also objects for example show = print
+    i.e show("Hello") is same as print("Hello")
+10. def fun():
+        count = 0
+        def counter():
+            nonlocal count
+            count+=1
+        return counter
+    This is a closure function and nonlocal is used to update the count on repeated calls like
+    c1 = fun()
+    print(c1(), c1(), c1()) # 1 2 3

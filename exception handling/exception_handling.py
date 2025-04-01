@@ -15,3 +15,15 @@ except TypeError:
     print(f"{type(a)} or {type(b)} is string.")
 
 print('end')
+
+"""
+    proper structuring is
+    try:
+        something()
+    except:
+        some error in something
+    else:
+        print(something if try has no errors)
+    finally:
+        do something regardless
+"""

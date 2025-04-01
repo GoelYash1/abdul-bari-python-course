@@ -36,3 +36,6 @@
     This is a closure function and nonlocal is used to update the count on repeated calls like
     c1 = fun()
     print(c1(), c1(), c1()) # 1 2 3
+11. ZeroDivisionError, TypeError, IndexError, KeyError,     ValueError
+    10/0               10/'x'     l = [1,2]   d = {1:'one'} int('xyz')
+                                  l[4]        d[2]

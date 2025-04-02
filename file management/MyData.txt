@@ -1,0 +1,5 @@
+This is a Test file.
+Files are stored in a hard disk.
+It is a permanent storage.
+Files have a name.
+They are accessed using there names.

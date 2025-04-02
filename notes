@@ -39,3 +39,10 @@
 11. ZeroDivisionError, TypeError, IndexError, KeyError,     ValueError
     10/0               10/'x'     l = [1,2]   d = {1:'one'} int('xyz')
                                   l[4]        d[2]
+12. Modes of opening a file, r -> To read data from file.
+                             w -> To write data from file. It overrides the previous data if it is closed and opened again
+                             a -> To append data to the file
+                             r+ -> To read and write data to a file
+                             w+ -> To write and read data into a file
+                             a+ -> To append and read data of a file
+                             x -> To open the file in exclusive creation mode

@@ -46,3 +46,5 @@
                              w+ -> To write and read data into a file
                              a+ -> To append and read data of a file
                              x -> To open the file in exclusive creation mode
+->  Pickle has main two functions pickle.dump(object, file)
+                                  pickle.load(file) (one by one object)

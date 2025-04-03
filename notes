@@ -46,5 +46,9 @@
                              w+ -> To write and read data into a file
                              a+ -> To append and read data of a file
                              x -> To open the file in exclusive creation mode
-->  Pickle has main two functions pickle.dump(object, file)
+->  Pickle has main two functions pickle.dumps(object, file)
                                   pickle.load(file) (one by one object)
+    Can be used for objects
+13. Python support function overloading without writing two functions with same name and with the use of default values
+14. a class can have a inner class and it will be called in the class using self.'classname'
+15. interface and abstract class are similar but interface only has abstract methods whereas abstract class may have some concrete methods

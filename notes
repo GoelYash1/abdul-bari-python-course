@@ -52,3 +52,4 @@
 13. Python support function overloading without writing two functions with same name and with the use of default values
 14. a class can have a inner class and it will be called in the class using self.'classname'
 15. interface and abstract class are similar but interface only has abstract methods whereas abstract class may have some concrete methods
+16. Semaphore value decreases when a function is acquired and increases when released

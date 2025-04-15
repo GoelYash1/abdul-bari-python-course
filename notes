@@ -53,3 +53,14 @@
 14. a class can have a inner class and it will be called in the class using self.'classname'
 15. interface and abstract class are similar but interface only has abstract methods whereas abstract class may have some concrete methods
 16. Semaphore value decreases when a function is acquired and increases when released
+17. OS module has many functions
+        os.getlogin() gives who is logged in
+        os.getcwd() gives the current working directory
+        os.chdir() is used to change directory
+        os.listdir() list of files inside a directory
+        os.mkdir() makes directory
+        os.makedirs() make nested directories
+        os.remove() is used to remove a file
+        os.rmdir() is used to remove a directory
+        os.removedirs() is used to nested directories
+        os.rename() can be used to rename a file or folder

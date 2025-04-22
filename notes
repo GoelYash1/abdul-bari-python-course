@@ -64,3 +64,16 @@
         os.rmdir() is used to remove a directory
         os.removedirs() is used to nested directories
         os.rename() can be used to rename a file or folder
+18. Numpy array datatypes
+    arr = np.array([1,2,3,4],{dtype})
+    b - byte [-128,127] (128 will be -128 and so on)
+    B - unsigned byte (natural number % 256)
+    i - integer
+    I - unsigned Integer
+    f - float
+    F - complex
+    O - object
+    S - string
+    U - unicode character
+    ? - boolean
+you can also mention the dtype like int8, uint8, bool, longlong and more
